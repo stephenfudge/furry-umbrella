@@ -21,48 +21,24 @@
     </header>
     <main>
         <section>
-            <div>
-                <!-- align center -->
-                <!-- <button class="btn" onclick="hideButton(this)">Start Quiz</button> -->
+            <!-- Intro to quiz-->
+            <div id="opening" class="show">
+                <h1>Javascript Quiz</h1>
+                <p>If you get a question wrong the time will decrease by 'x amount'. Hit the start button to start</p>
                 <button class="btn">Start Quiz</button>
             </div>
 
-            <!-- question 1 -->
-            <!-- <div class=" questions">
-                <H2 class="questionNumber"></H2>
-                <ol class="answers" data-state="hidden">
-                    <li class="answers" data-state="hidden"></li>
-                    <li class="answers" data-state="hidden"></li>
-                    <li class="answers" data-state="hidden"></li>
-                    <li class="answers" data-state="hidden"></li>
-                </ol>
-            </div> -->
-
-
-            <div class=" questions">
-                <H2 class="questionNumber"></H2>
-                <ol class="answers" data-state="hidden">
-                    <li class="answers" data-set="list1" data-state="hidden"> test 1 234</li>
-                    <li class="answers" data-set="list2" data-state="hidden"> asf3 4et5 </li>
-                    <li class="answers" data-state="hidden"> kasdfk 3 34 wr</li>
-                    <li class="answers" data-state="hidden"> 13asdfa sdf2 25f</li>
-                </ol>
+            <!-- questions div -->
+            <div id="questionSection" class="hide">
+                <div id="questions">
+                    <div id="questionNumber"></div>
+                    <div id="answers" class="btn-grid"></div>
+                </div>
             </div>
 
 
 
-            <!-- question 2 -->
-            <!-- <div class="question2" data-state="hidden">
-                <h2>Question 2 question</h2>
-                <ol>
-                    <li>answer1</li>
-                    <li>answer2</li>
-                    <li>answer3</li>
-                    <li>answer4</li>
-                </ol> -->
-            <!-- </div> -->
-
-            <div class="highScores" data-state="hidden">
+            <div class="highScores" class="hidden">
                 <input type="text" name="highscore" id="initals" placeholder="initals here">
                 <button>Submit</button>
             </div>
