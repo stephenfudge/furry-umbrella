@@ -17,7 +17,7 @@
         <a href="scores.html" id="scorelink">View High Scores</a>
 
         <!-- align right -->
-        <p id="timer"> Timer: </p>
+        <p id="timer"></p>
     </header>
     <main>
         <section>
@@ -28,15 +28,29 @@
             </div>
 
             <!-- question 1 -->
-            <div class=" questions" data-state="hidden">
+            <!-- <div class=" questions">
                 <H2 class="questionNumber"></H2>
-                <ol class="answers">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                <ol class="answers" data-state="hidden">
+                    <li class="answers" data-state="hidden"></li>
+                    <li class="answers" data-state="hidden"></li>
+                    <li class="answers" data-state="hidden"></li>
+                    <li class="answers" data-state="hidden"></li>
+                </ol>
+            </div> -->
+
+
+            <div class=" questions">
+                <H2 class="questionNumber"></H2>
+                <ol class="answers" data-state="hidden">
+                    <li class="answers" data-set="list1" data-state="hidden"> test 1 234</li>
+                    <li class="answers" data-set="list2" data-state="hidden"> asf3 4et5 </li>
+                    <li class="answers" data-state="hidden"> kasdfk 3 34 wr</li>
+                    <li class="answers" data-state="hidden"> 13asdfa sdf2 25f</li>
                 </ol>
             </div>
+
+
+
             <!-- question 2 -->
             <!-- <div class="question2" data-state="hidden">
                 <h2>Question 2 question</h2>
@@ -47,6 +61,11 @@
                     <li>answer4</li>
                 </ol> -->
             <!-- </div> -->
+
+            <div class="highScores" data-state="hidden">
+                <input type="text" name="highscore" id="initals" placeholder="initals here">
+                <button>Submit</button>
+            </div>
         </section>
     </main>
 

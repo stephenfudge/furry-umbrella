@@ -2,10 +2,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* button {
-    text-align: center;
-} */
-
 .btn {
     background: #11f5a9;
     background-image: -webkit-linear-gradient(top, #11f5a9, #2980b9);
@@ -16,7 +12,6 @@
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
-    font-family: Arial;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
@@ -31,7 +26,6 @@
 
 header {
     padding-bottom: 3%;
-    /* display: inline; */
 }
 
 
@@ -41,9 +35,6 @@ a {
     color: hotpink;
 }
 
-/* #scorelink {
-    text-align: left;
-} */
 
 #timer {
     text-align: right;
@@ -59,15 +50,14 @@ section {
 ol {
     text-align: center;
     list-style-position: inside;
-
+    visibility: hidden;
 }
 
-/* 
-li {
+
+.highScores {
+    visibility: collapse;
+}
+
+h1 {
     text-align: center;
-} */
-
-
-.question1 {}
-
-.question2 {}
+}
