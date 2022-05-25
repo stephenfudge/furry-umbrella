@@ -14,39 +14,64 @@
         <section> -->
     <header>
         <!-- align left -->
-        <a href="scores.html" id="scorelink">View High Scores</a>
-
+        <!-- <a href="scores.html" id="scorelink">View High Scores</a> -->
+        <!-- <a href="#highScoreSection">View High Scores</a> -->
+        <h4 id="viewScores">View High Scores</h4>
         <!-- align right -->
         <p id="timer"></p>
     </header>
     <main>
         <section>
-            <!-- Intro to quiz-->
-            <div id="opening" class="show">
-                <h1>Javascript Quiz</h1>
-                <p>If you get a question wrong the time will decrease by 'x amount'. Hit the start button to start</p>
-                <button class="btn">Start Quiz</button>
+            <!-- Intro to quiz Section-->
+            <div id="openingSection" class="show">
+                <div class="opening container">
+                    <h1>Javascript Quiz</h1>
+                    <p>If you get a question wrong the time will decrease by 5 seconds. Hit the start button to proceed.
+                    </p>
+                    <button class="btn" id="startButton">Start Quiz</button>
+                </div>
             </div>
 
-            <!-- questions div -->
+            <!-- Questions Section -->
             <div id="questionSection" class="hide">
-                <div id="questions">
+                <div id="questions container">
                     <div id="questionNumber"></div>
                     <div id="answers" class="btn-grid"></div>
                 </div>
             </div>
 
+            <!-- Game Over section -->
+            <div id="closingSection" class="hide">
+                <div class="closing container">
+                    <div id="score">
+                    </div>
 
+                    <form id="initialsForm">
+                        <label>Enter Initials</label>
+                        <input type="text" name="highscore" id="initials" placeholder="initals here">
+                        <button class="btn" id="formButton" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
 
-            <div class="highScores" class="hidden">
-                <input type="text" name="highscore" id="initals" placeholder="initals here">
-                <button>Submit</button>
+            <!-- High Scores Section-->
+            <div id="highScoreSection" class="hide">
+                <div class="highScores container">
+                    <h1 class="highScore">High Scores</h1>
+                    <ol id="highScoreList" class="scoreList"></ol>
+                    <div>
+                        <button class="btn" id="backButton">Back</button>
+                        <button class="btn" id="clearButton">Clear All Scores</button>
+                    </div>
+
+                </div>
             </div>
         </section>
     </main>
 
+    <!-- <script src="./assets/js/script.js"></script> -->
+    <script src="1245.js"></script>
 
-    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
