@@ -106,10 +106,7 @@ var myQuestions = [{
 ];
 
 
-
-
-
-// initalize
+// page initalize
 var init = function () {
     highScoreSection.classList.add("hide");
     highScoreSection.classList.remove("show");
@@ -142,7 +139,7 @@ var timerDown = function () {
     }, 1000)
 }
 
-
+// start game
 var startGame = function () {
     // adding classes to the html elements
     openingSection.classList.add('hide');
