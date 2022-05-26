@@ -13,7 +13,7 @@
 
 *What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.*
 
-Go to  and the page should load and function properly. 
+Go to https://stephenfudge.github.io/furry-umbrella/ and the page should load and function properly. 
 
 Alternatively, if you wish to download the files then you shoud do the following:
 Download the index.html file as well as the assets folder and the project should work and function properly. 
@@ -25,10 +25,11 @@ Download the index.html file as well as the assets folder and the project should
 To start the quiz, you have to click on the Start Button. Once that has been clicked the quiz will begin and then you can click on the buttons to select your answer. Once the quiz has been completed you can add your high score.
 
 
-Below is a screenshot of what the website should look like.
+Below is a screenshot of what the website should look like upon entry to the site.  In the images folder within assets there are 3 more screenshots on what the process of the site is. 
 
 
-![alt text](assets/images//
+![alt text](assets/images//startpage.png)
 
 
 ## Credits
+https://www.computerhope.com/htmcolor.htm for color options, and https://css3buttongenerator.com/ for the start button.
